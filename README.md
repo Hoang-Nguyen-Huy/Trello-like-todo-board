@@ -1,4 +1,12 @@
 # Offline-capable and syncable Trello-like web application 
+
+---
+# Demo
+
+https://github.com/user-attachments/assets/2b975240-667a-407e-a761-4aad4331a3f2
+
+---
+
 ## Features
 
 - 🚀 Server-side rendering
