@@ -19,6 +19,14 @@ Install the dependencies:
 yarn install
 ```
 
+### Create environment
+Create .env file
+```bash
+DATABASE_URL="file:./database/user.db"
+
+VITE_API_BASE_URL="http://localhost:3000"
+```
+
 ### Development
 
 Start the development server with HMR:
