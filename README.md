@@ -1,5 +1,4 @@
-# Welcome to LECOLE Fast Track 24
-
+# Offline-capable and syncable Trello-like web application 
 ## Features
 
 - 🚀 Server-side rendering
