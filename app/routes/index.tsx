@@ -17,7 +17,7 @@ const columns: { id: Todo["status"]; title: string }[] = [
 ];
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "Track Three" }];
+  return [{ title: "hi hi" }];
 }
 
 export function headers(_: Route.HeadersArgs) {
