@@ -1,5 +1,7 @@
 import type { Config } from "@react-router/dev/config";
 
 export default {
-  ssr: true
+  ssr: true,
+  basename: "/",
+  prerender: ["/"],
 } satisfies Config;
