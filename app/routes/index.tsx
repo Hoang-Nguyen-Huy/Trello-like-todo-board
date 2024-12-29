@@ -1,4 +1,4 @@
-import type { Route } from "../track-three/+types";
+import type { Route } from "./+types";
 import { Button } from "~/components/ui/button";
 import { useCallback, useEffect, useState } from "react";
 import type { Todo, TodoLocal } from "~/types/todos";
