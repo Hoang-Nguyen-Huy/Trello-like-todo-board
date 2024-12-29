@@ -1,5 +1,6 @@
 {
-  "name": "lecole-fast-track-24",
+  "name": "todo-board",
+  "homepage": "https://Hoang-Nguyen-Huy.github.io/Trello-like-todo-board/",
   "private": true,
   "type": "module",
   "scripts": {
