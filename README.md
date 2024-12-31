@@ -99,6 +99,13 @@ Make sure to deploy the output of `yarn build`
 │   └── server/    # Server-side code
 ```
 
+## References
+
+- [SQLite Wasm](https://github.com/sqlite/sqlite-wasm)
+- [API-oo1](https://sqlite.org/wasm/doc/trunk/api-oo1.md)
+- [Persistence data options](https://sqlite.org/wasm/doc/trunk/persistence.md)
+- [COOP and COEP explained](https://docs.google.com/document/d/1zDlfvfTJ_9e8Jdc8ehuV4zMEu9ySMCiTGMS9y0GU92k/edit?tab=t.0)
+
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
