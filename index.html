@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>hi hi</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"/><link rel="stylesheet" href="/assets/app-ByUkAWrt.css"/><link rel="stylesheet" href="/assets/index-BE4BdE5o.css"/></head><body><div class="flex flex-col p-8 gap-4 min-h-screen"><div class="flex justify-between items-center"><h1 class="text-2xl font-bold">Todo App</h1><div class="px-2 py-1 rounded bg-red-500">Offline</div><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2">Sync Now</button></div><div class="flex gap-2 mb-4"><input type="text" class="flex-1 px-3 py-2 border rounded bg-white" placeholder="Add new todo..." value=""/><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2">Add Todo</button></div><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="border rounded-lg p-4 relative "><h2 class="font-bold mb-4">Backlog</h2><div class="space-y-2"></div></div><div class="border rounded-lg p-4 relative "><h2 class="font-bold mb-4">In Progress</h2><div class="space-y-2"></div></div><div class="border rounded-lg p-4 relative "><h2 class="font-bold mb-4">Done</h2><div class="space-y-2"></div></div></div></div><div class="Toastify"></div><script>((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
+    }
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
+    }
+  })("react-router-scroll-positions", null)</script><link rel="modulepreload" href="/assets/entry.client-Cs9GVY-u.js"/><link rel="modulepreload" href="/assets/chunk-D52XG6IA-B3K3QliB.js"/><link rel="modulepreload" href="/assets/index-B-YzUIzk.js"/><link rel="modulepreload" href="/assets/with-props-D2C2bYz-.js"/><link rel="modulepreload" href="/assets/root-DJeRioDV.js"/><link rel="modulepreload" href="/assets/index-C9geyKoS.js"/><script>window.__reactRouterContext = {"basename":"/","future":{"unstable_optimizeDeps":false},"isSpaMode":false};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">;
+import * as route0 from "/assets/root-DJeRioDV.js";
+import * as route1 from "/assets/index-C9geyKoS.js";
+  window.__reactRouterManifest = {
+  "entry": {
+    "module": "/assets/entry.client-Cs9GVY-u.js",
+    "imports": [
+      "/assets/chunk-D52XG6IA-B3K3QliB.js",
+      "/assets/index-B-YzUIzk.js"
+    ],
+    "css": []
+  },
+  "routes": {
+    "root": {
+      "id": "root",
+      "path": "",
+      "hasAction": false,
+      "hasLoader": false,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": true,
+      "module": "/assets/root-DJeRioDV.js",
+      "imports": [
+        "/assets/chunk-D52XG6IA-B3K3QliB.js",
+        "/assets/index-B-YzUIzk.js",
+        "/assets/with-props-D2C2bYz-.js"
+      ],
+      "css": []
+    },
+    "routes/index": {
+      "id": "routes/index",
+      "parentId": "root",
+      "index": true,
+      "hasAction": false,
+      "hasLoader": false,
+      "hasClientAction": false,
+      "hasClientLoader": false,
+      "hasErrorBoundary": false,
+      "module": "/assets/index-C9geyKoS.js",
+      "imports": [
+        "/assets/with-props-D2C2bYz-.js",
+        "/assets/chunk-D52XG6IA-B3K3QliB.js",
+        "/assets/index-B-YzUIzk.js"
+      ],
+      "css": [
+        "/assets/index-BE4BdE5o.css"
+      ]
+    }
+  },
+  "url": "/assets/manifest-625d3812.js",
+  "version": "625d3812"
+};
+  window.__reactRouterRouteModules = {"root":route0,"routes/index":route1};
+
+import("/assets/entry.client-Cs9GVY-u.js");</script></body></html><!--$?--><template id="B:0"></template><!--/$--><div hidden id="S:0"><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_5\":-5,\"_6\":-5},\"loaderData\",{\"_3\":-5,\"_4\":-5},\"root\",\"routes/index\",\"actionData\",\"errors\"]\n");</script><!--$?--><template id="B:1"></template><!--/$--></div><script>function $RC(a,b){a=document.getElementById(a);b=document.getElementById(b);b.parentNode.removeChild(b);if(a){a=a.previousSibling;var f=a.parentNode,c=a.nextSibling,e=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d)if(0===e)break;else e--;else"$"!==d&&"$?"!==d&&"$!"!==d||e++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;b.firstChild;)f.insertBefore(b.firstChild,c);a.data="$";a._reactRetry&&a._reactRetry()}};$RC("B:0","S:0")</script><div hidden id="S:1"><script>window.__reactRouterContext.streamController.close();</script></div><script>$RC("B:1","S:1")</script>
